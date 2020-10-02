@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well Done!</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-coloumn">
+            <h1 id="finalScore">0</h1>
+            <form class="form-container">
+                <h2 id="end-text">Enter your name below to save your progress</h2>
+                <input type="text" name="name" id="username" placeholder="Your name"  /> 
+                <button class='btn' id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+            <a href="/game.html" class="btn">Play Again</a>
+            <a href="/index.html" class="btn">Home <i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <script src="/src/js/end.js"></script>
+</body>
+</html>
